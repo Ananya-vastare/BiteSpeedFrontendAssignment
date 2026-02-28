@@ -2,6 +2,7 @@
 
 A React-based flow builder application built using React Flow (@xyflow/react).  
 This project allows users to create, connect, and edit message nodes visually.
+Hosted URL : https://bitespeedassingment.netlify.app/
 
 ##  Features
 
