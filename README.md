@@ -31,17 +31,21 @@ src/
 ├── App.css
 ├── main.jsx
 └── index.css
+```
 
 ## Installation & Setup
 
 1. Clone the repository
 ```bash
 git clone https://github.com/Ananya-vastare/BiteSpeedFrontendAssignment.git
+```
 
 2.Navigate to the project folder
 ```bash
 cd my-react-flow-app
+```
 
 3.Install dependencies
 ```bash
 npm install
+```
