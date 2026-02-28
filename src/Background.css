@@ -1,0 +1,178 @@
+
+.app-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #f8fafc;
+}
+.back-button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f46e5;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: rgba(79, 70, 229, 0.1);
+  color: #3730a3;
+}
+
+.back-button:active {
+  transform: scale(0.97);
+}
+
+.back-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+}
+.flow-container {
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.input-container {
+  width: 300px;
+  background: #ffffff;
+  border-left: 1px solid #e5e7eb;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.04);
+}
+
+
+
+.dnd-node {
+  padding: 14px 16px;
+  background: #f1f5f9;
+  border: 2px dashed #cbd5e1;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #334155;
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+
+.dnd-node:hover {
+  background: #e2e8f0;
+  border-color: #94a3b8;
+  transform: translateY(-2px);
+}
+
+
+
+.settings-panel h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.settings-panel input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.settings-panel input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+
+
+.save-button {
+  margin-top: auto;
+  padding: 12px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.save-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
+}
+
+
+
+.node-container {
+  min-width: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.node-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.node-header {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: white;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.node-body {
+  padding: 12px;
+  font-size: 14px;
+  color: #374151;
+  text-align: center;
+  word-break: break-word;
+}
+
+
+
+.react-flow__controls {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.react-flow__node {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.react-flow__handle {
+  width: 10px;
+  height: 10px;
+  background: #1f2937;
+  border: 2px solid white;
+}
+
+.react-flow__handle-left {
+  left: 2px;              
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.react-flow__handle-right {
+  right: -48px;             
+  top: 50%;
+  transform: translateY(-50%);
+}
