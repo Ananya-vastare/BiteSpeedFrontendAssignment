@@ -22,6 +22,7 @@ This project allows users to create, connect, and edit message nodes visually.
 - CSS
 
 ## Project Structure
+```bash
 src/
 │
 ├── App.jsx
